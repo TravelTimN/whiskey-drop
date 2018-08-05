@@ -9,6 +9,7 @@ body {
 .container-wrapper--purple {
     background-color: #EDA7FF;
 }
+
 .container-wrapper--drkpurple {
     background-color: #6c006a;
     color: #FFFFFF;
@@ -63,6 +64,7 @@ body {
     width: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.9);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 50%, rgba(216, 0, 212, 0.2));
     border: 0;
 }
 
@@ -291,6 +293,7 @@ mark {
 }
 
 /* TABLE */
+
 .table-text-black {
     color: #000000;
 }
