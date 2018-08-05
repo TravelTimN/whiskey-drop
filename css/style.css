@@ -1,0 +1,296 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTAINERS */
+
+.container-wrapper {}
+
+.container-wrapper--purple {
+    background-color: #EDA7FF;
+}
+.container-wrapper--drkpurple {
+    background-color: #6c006a;
+    color: #FFFFFF;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrapLandingPage/master/04-beyond_bootstrap/images/whiskey-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* MODAL */
+
+.modal-title {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.5);
+}
+
+.modal-header {
+    background-color: #D800D4;
+}
+
+/* NAVBAR */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #D800D4;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #D800D4;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.navbar .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFFFFF;
+}
+
+.navbar-btn {
+    background-color: rgba(216, 0, 212, 0.5);
+    border: 0;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.5);
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-btn:hover,
+.navbar-btn:active,
+.navbar-btn:focus {
+    background-color: #D800D4;
+    color: #FFFFFF;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #A7A7A7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #D0D0D0;
+}
+
+/* BLOCK DIVIDERS */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #D800D4;
+}
+
+.block-divider--purple {
+    background-color: #D800D4;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* BUTTONS */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--purple {
+    color: #FFFFFF;
+    background-color: #D800D4;
+    border-color: #141516;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.5);
+}
+
+.btn--purple:hover,
+.btn--purple:active,
+.btn--purple:focus,
+.btn--purple:active:focus {
+    color: #FFFFFF;
+    background-color: #880085;
+    border-color: #141516;
+}
+
+.label-purple {
+    color: #FFFFFF;
+    background-color: #D800D4;
+    text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.5);
+}
+
+.mark,
+mark {
+    background-color: #B277C1;
+}
+
+.glyphicon {
+    color: #6C006A;
+    text-shadow: 2px 2px 1px rgba(250, 250, 250, 0.5);
+}
+
+/* ALERT */
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #6C006A;
+    background-color: #EDA7FF;
+}
+
+.site-wide-alert a {
+    color: #D800D4;
+}
+
+.site-wide-alert a:hover {
+    color: #6C006A;
+}
+
+/* PAGE HEADERS */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* QUOTES */
+
+.quote {
+    border-left: 0;
+}
+
+/* FEATURES */
+
+.feature {
+    text-align: center;
+}
+
+.feature .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.feature .btn {
+    min-width: 100px;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #6C006A;
+    width: 125px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 15px;
+    text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.5);
+    transition: all 0.2s ease-in-out;
+}
+
+.feature .btn:hover,
+.feature .btn:active,
+.feature .btn:focus {
+    background-color: #D800D4;
+}
+
+.feature-divider {
+    width: 75px;
+    height: 1px;
+    border: 0;
+    background-color: #D800D4;
+}
+
+/* TABLE */
+.table-text-black {
+    color: #000000;
+}
